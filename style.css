@@ -11,15 +11,19 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .margin {
     margin-right: 40px;
 }
 
 .orange-color {
-    color: rgb(233, 201, 19);
+    color: orangered;
 }
 
-section {
+.flexible-comtainer {
     display: flex;
     margin-bottom: 100px;
 }
@@ -51,4 +55,20 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    text-align: justify;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 10px 20px 35px gray;
 }
